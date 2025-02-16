@@ -1,0 +1,5 @@
+// script.js
+document.getElementById('yes-button').addEventListener('click', function() {
+  // When the button is clicked, show a response message
+  document.getElementById('response-message').textContent = 'Yay! I’m so happy! ❤️';
+});
